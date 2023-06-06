@@ -12,17 +12,19 @@ import { UserPageComponent } from './user-page/user-page.component';
 
 
 const routes: Routes = [
-{ path: "", component: HomePageComponent },
-{ path: "login", component: LoginPageComponent },
-{ path: "feed", component: FeedPageComponent },
-{ path: "comunity", component: ComunityPageComponent },
-{ path: "newaccount", component: NewAccountPageComponent},
-{ path: "recover", component: RecoverPageComponent},
-{ path: "user", component: UserPageComponent},
-{ path: "**", component: NotFoundPageComponent }
-];
-
-
+    { path: "", title: "Rede Social Minimalista", component: HomePageComponent },
+    {
+        path: "login",
+        title: "Autentificação",
+        component: LoginPageComponent,
+        children: [{ path: "newaccount", component: NewAccountPageComponent }]
+    },
+    { path: "feed", title: "Feed", component: FeedPageComponent },
+    { path: "comunity", title: "Comunidades", component: ComunityPageComponent },
+    { path: "recover", title: "Recuperar Senha", component: RecoverPageComponent },
+    { path: "user", title: "Página de Usuário", component: UserPageComponent },
+    { path: "**", title: "Not Found", component: NotFoundPageComponent }
+    ];
 @NgModule({
 imports: [RouterModule.forRoot(routes)],
 exports: [RouterModule]
