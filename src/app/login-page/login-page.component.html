@@ -5,7 +5,7 @@
 <p>
     <label>Email/Username</label>
     <br>
-    <input>
+    <input [(ngModel)]="email">
 </p>
 
 <app-password [seePassword]="false" [breakLineOnInput]="true" />
@@ -19,7 +19,7 @@
 </p>
 
 <p>
-    Esqueceu sua senha? <a href="/recover">Recupere agora!</a>
+    Esqueceu sua senha? <a href="{{'/recover/' + email}}">Recupere agora!</a>
 </p>
 
 <router-outlet></router-outlet>

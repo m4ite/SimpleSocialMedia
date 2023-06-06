@@ -21,6 +21,7 @@ const routes: Routes = [
     },
     { path: "feed", title: "Feed", component: FeedPageComponent },
     { path: "comunity", title: "Comunidades", component: ComunityPageComponent },
+    { path: "recover/:email", title: "Recuperar Senha", component: RecoverPageComponent }, // passar parâmetro pela rota
     { path: "recover", title: "Recuperar Senha", component: RecoverPageComponent },
     { path: "user", title: "Página de Usuário", component: UserPageComponent },
     { path: "**", title: "Not Found", component: NotFoundPageComponent }
