@@ -16,3 +16,19 @@
     <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
+
+## Tasks
+This project is still under development, the next updates will focus on the following tasks:
+
+
+- [x] Login Page
+- [x] Show password
+- [x] Create Account
+- [x] Recover Password
+- [x] CPF Validation
+- [x] CEP Search
+- [x] Password Strength Meter
+- [ ] Card for post
+- [ ] Feed Page
+
+
