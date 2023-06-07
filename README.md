@@ -4,9 +4,7 @@
 
 
 ## 📚 Description
->  Projeto utilizando Angular para elaborar uma simples rede social. Esse projeto visa praticar o sistema de rotas, utilização de componentes, entender o sistema de Binding e o uso de templates.
-
----
+>  Project using Angular to create a simple social media. This project aims to practice the Route System, use of Components, understand the Binding System and the use of Templates.
 
 ## Used Languages
 <p align="center">
@@ -17,6 +15,8 @@
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
 
+---
+
 ## Tasks
 This project is still under development, the next updates will focus on the following tasks:
 
@@ -26,9 +26,32 @@ This project is still under development, the next updates will focus on the foll
 - [x] Create Account
 - [x] Recover Password
 - [x] CPF Validation
+- [x] Email Validation
 - [x] CEP Search
 - [x] Password Strength Meter
 - [ ] Card for post
 - [ ] Feed Page
 
+## 💻 Comands
 
+* To create new Angular App type:
+
+```
+<ng new APP_NAME>
+```
+
+
+
+* To generate new component type:
+
+```
+<npm run ng generate component COMPONENT_NAME>
+```
+
+
+
+* To run the application type the followind code in the terminal: 
+
+```
+<npm start>
+```
