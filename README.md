@@ -2,6 +2,13 @@
     📱<br>Simple Social Media
 </h1>
 
+Table of Contents
+<!--ts-->
+    * [Description](#description)
+    * [Used Languages](#used-languages)
+    * [Tasks](#tasks)
+    * [Comands](#comands)
+<!--te-->
 
 ## 📚 Description
 >  Project using Angular to create a simple social media. This project aims to practice the Route System, use of Components, understand the Binding System and the use of Templates.
@@ -15,9 +22,10 @@
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
 
+
 ---
 
-## Tasks
+## 🚧 Tasks 🚧
 This project is still under development, the next updates will focus on the following tasks:
 
 
@@ -37,7 +45,7 @@ This project is still under development, the next updates will focus on the foll
 * To create new Angular App type:
 
 ```
-<ng new APP_NAME>
+ng new APP_NAME
 ```
 
 
@@ -45,7 +53,14 @@ This project is still under development, the next updates will focus on the foll
 * To generate new component type:
 
 ```
-<npm run ng generate component COMPONENT_NAME>
+npm run ng generate component COMPONENT_NAME
+```
+
+
+
+*Installing Angular Matrial Library for 
+```
+npm run ng add @angular/material
 ```
 
 
@@ -53,5 +68,12 @@ This project is still under development, the next updates will focus on the foll
 * To run the application type the followind code in the terminal: 
 
 ```
-<npm start>
+npm start
 ```
+
+
+
+## 🚀 Links
+
+👉 https://material.angular.io/components
+

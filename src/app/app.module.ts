@@ -20,7 +20,10 @@ import { ManageCpfComponent } from './manage-cpf/manage-cpf.component';
 import { CardComponent } from './card/card.component';
 import { CreateCardComponent } from './create-card/create-card.component';
 import { HttpClientModule } from '@angular/common/http'; 
-import { ReactiveFormsModule } from '@angular/forms'; // Added for use ReactiveForms
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,10 @@ import { ReactiveFormsModule } from '@angular/forms'; // Added for use ReactiveF
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
