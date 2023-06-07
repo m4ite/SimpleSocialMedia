@@ -26,6 +26,8 @@ const routes: Routes = [
     { path: "user", title: "Página de Usuário", component: UserPageComponent },
     { path: "**", title: "Not Found", component: NotFoundPageComponent }
     ];
+
+    
 @NgModule({
 imports: [RouterModule.forRoot(routes)],
 exports: [RouterModule]

@@ -19,6 +19,7 @@ import { CpfComponent } from './cpf/cpf.component';
 import { ManageCpfComponent } from './manage-cpf/manage-cpf.component';
 import { CardComponent } from './card/card.component';
 import { CreateCardComponent } from './create-card/create-card.component';
+import { HttpClientModule } from '@angular/common/http'; // Added for use HttpClient
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { CreateCardComponent } from './create-card/create-card.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,14 +8,26 @@
     <input>
 </p>
 
+
+<app-manage-cpf />
+
+<p>
+    <label>CEP</label>
+    <br>
+    <input [(ngModel)]="cepvalue" (change)="cepAdded()">
+</p>
+
+<p>
+    <label>Rua</label>
+    <br>
+    <input [(ngModel)]="ruavalue">
+</p>
+
 <p>
     <label>Username</label>
     <br>
     <input>
 </p>
-
-
-<app-manage-cpf/>
 
 <app-create-password />
 
