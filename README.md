@@ -4,10 +4,10 @@
 
 Table of Contents
 <!--ts-->
-    * [Description](#description)
-    * [Used Languages](#used-languages)
-    * [Tasks](#tasks)
-    * [Comands](#comands)
+    * [ Description. ](#description)
+    * [ Used Languages .](#used-languages)
+    * [ Tasks. ](#tasks)
+    * [ Comands. ](#comands)
 <!--te-->
 
 <a name="description"></a>
