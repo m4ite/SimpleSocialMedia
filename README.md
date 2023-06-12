@@ -2,7 +2,7 @@
     📱<br>Simple Social Media
 </h1>
 
-##Table of Contents
+## Table of Contents
 
   * [Description](#description)
   * [Used Languages](#used-languages)
