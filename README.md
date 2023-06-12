@@ -10,9 +10,11 @@ Table of Contents
     * [Comands](#comands)
 <!--te-->
 
+<a name="description"></a>
 ## 📚 Description
 >  Project using Angular to create a simple social media. This project aims to practice the Route System, use of Components, understand the Binding System and the use of Templates.
 
+<a name="used-languages"></a>
 ## Used Languages
 <p align="center">
     <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
@@ -24,7 +26,7 @@ Table of Contents
 
 
 ---
-
+<a name="tasks"></a>
 ## 🚧 Tasks 🚧
 This project is still under development, the next updates will focus on the following tasks:
 
@@ -40,6 +42,8 @@ This project is still under development, the next updates will focus on the foll
 - [ ] Card for post
 - [ ] Feed Page
 
+
+<a name="comands"></a>
 ## 💻 Comands
 
 * To create new Angular App type:
