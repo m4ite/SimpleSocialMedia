@@ -2,12 +2,12 @@
     📱<br>Simple Social Media
 </h1>
 
-Table of Contents
+##Table of Contents
 
-   * [ Description. ](#description)
-   * [ Used Languages .](#used-languages)
-   * [ Tasks. ](#tasks)
-   * [ Comands. ](#comands)
+  * [Description](#description)
+  * [Used Languages](#used-languages)
+  * [Tasks](#tasks)
+  * [Comands](#comands)
 
 
 <a name="description"></a>
