@@ -3,12 +3,12 @@
 </h1>
 
 Table of Contents
-<!--ts-->
+
     * [ Description. ](#description)
     * [ Used Languages .](#used-languages)
     * [ Tasks. ](#tasks)
     * [ Comands. ](#comands)
-<!--te-->
+
 
 <a name="description"></a>
 ## 📚 Description
